@@ -1,0 +1,385 @@
+#image{
+    height:100vh;
+    width:100vw;
+
+   background-image:url("https://149695847.v2.pressablecdn.com/wp-content/uploads/2018/04/camera.jpg");
+
+    background-size: cover; 
+    margin-top: -8px; 
+    padding-top:-30px;
+}
+.upper-padding {
+    padding-top: 20px;
+    padding-left: 80px;
+    text-transform: uppercase;
+    font-size: 15px;
+    /* align-items: baseline; */
+    
+}
+.buy-button{
+    padding:3px 1px ;
+     margin-left:20px ;
+     border-radius:4px;
+     border-style:solid;
+     border-width: 1px; 
+     border-color:white;
+    /*OR
+    border:1px solid white;*/
+
+}
+#margin2{
+    margin-left:650px;
+}
+#margin2 a{
+    /* margin-left: 20px; */
+    padding:17px;
+     text-decoration: none;
+    font-family: sans-serif;
+} 
+#inner-box{
+    position:absolute;
+    height :46vh;
+     width :41%;
+     background-color :whitesmoke ;
+     opacity: 85%;
+    background-position: center;
+     margin-left:430px;
+     margin-top: 170px;
+}
+#inner-box-head{
+     position: relative;
+     top:50px;
+     left:125px;
+     font-size:45px;
+     font-family:sans-serif;
+     font-weight: 550;
+}
+.inner-box-body{
+    position:relative;
+    top:100px;
+    left:70px;
+    font-size:18px;
+    line-height: 27px;
+}
+.inner-box-tail{
+    position:relative;
+    top:30px;
+    left:180px;
+    text-transform: uppercase;
+    word-spacing: 6px;
+    letter-spacing: 3px;font-family: sans-serif;
+    font-weight:300;
+}
+#bottom{
+    position:relative;
+    top:110px;
+    border-bottom: 3px solid black;
+}
+/* a:hover{
+    color:aliceblue;
+    opacity: 80%;
+} */
+nav a:hover{
+    
+    /* color:red; */
+    opacity: 55%;
+    /* border:1px solid red; */
+}
+/* .buy-button a:hover{
+    margin-top: 300;
+    border:1px solid red    //another time
+} */
+#container{
+    padding:110px 170px 0px 170px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.container-divs{
+    display:flex;
+    flex-direction: column;
+
+    font-size:19px;
+    font-family:sans-serif;
+    font-weight:600;
+}
+.container-div-parent{
+    margin-top:10px;
+}
+.divs-child{
+    margin-top:30px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.div123{
+    display:flex;
+    flex-direction:row;
+
+}
+.icon{
+    font-size:40px;
+    margin-right:25px;
+}
+.container-bottom{
+    display:flex;
+    justify-content: center;
+    margin-top:25px;
+    font-size:20px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.border1{
+    margin-top:12px;
+    border-bottom: black solid;
+}
+#middle{
+    width:100vw;
+    height:107vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#middle-top{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    padding:40px 0px;
+    justify-content:center;
+}
+#middle-bottom{
+    height:550px;
+    display:flex;
+    flex-direction: row;   
+    justify-content: center;
+    padding:0px;
+}
+.middle-bottom-div{
+    height:53vh;
+    width:22vw;
+    margin:10px 7px;
+    background-image: url(https://images.unsplash.com/photo-1616948693291-60b9cb0171a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+     background-position: center;
+   background-size: cover; 
+    border:rgb(255, 255, 255) solid 2px ;
+    border-radius: 4px;
+    
+    
+}
+.middle-bottom1{
+    height:75%;
+    position: relative;
+    top:40px;
+    font-size:17px;
+    font-family: sans-serif;
+    color:aliceblue;
+    line-height: 23px;;
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+     justify-content:space-around ;
+}
+
+#social-icon{
+    font-size: 19px;
+   
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color:aliceblue;
+    margin-bottom: -5px;
+  
+}
+#social-icon a:hover{
+    color:white;
+    opacity:75%;
+}
+.view-button{
+    border:white solid 1.5px;
+    border-radius: 4px;
+    padding :8px 16px;
+    text-decoration: none;
+    color:white;
+   
+}
+.bu a:hover{
+    background-color:white ;
+    color:black;
+}
+#main-1{
+    height:65vh;
+    width:100vw;
+    background-color: black;
+    margin-left:-8px;
+    /* background-image: url(https://www.uco.edu/programs/images/cla-images/photography.jpg); */
+    background-image: url(https://mobirise.com/extensions/photom4/assets/images/01.jpg);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 50vw 65vh;
+    
+}
+#main-1-inner{
+    color:white;
+    text-align:right; 
+     width:43vw;
+     font-size: 17px;
+     font-family:  sans-serif;
+    position:relative; 
+    top:90px;
+     line-height: 29px;
+}
+#main-2-top{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+ #main-2-span {
+    margin-top:60px;
+    height: 40px;
+   font-size: 19px;
+}  
+   .main-2-middle{
+     width:80vw;
+    /* height:25vh; */
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+   }
+   .anmol11{
+    font-size: 20px;
+    height:30vh;
+    margin:10px;
+    font-family: sans-serif;
+    display:flex;
+    flex-direction: column;
+  
+    align-items: center;
+     justify-content: space-around;
+    
+}
+
+.main-2-middle-divs{
+     width:16vw;
+    height:20vh; 
+    /* background-position:top left; */
+    background-size: cover;
+    
+} 
+.main-2-middle-border-bottom{
+   
+    width:150px;
+    border-top:black solid 1px ;
+    opacity: 30%;
+}
+#animationpart{
+    margin-top: 50px;
+    width:100vw;
+    /* height:500px; */
+    display:flex;
+    flex-direction: row;
+    /* flex-wrap: wrap;*/
+} 
+@keyframes scaleout{
+    from{
+        scale:1;
+    }
+    to{
+        scale:1.2;
+    }
+}
+.animation:hover{
+    
+    animation: scaleout 1s ease-in-out 1;
+}
+.before-ani:hover{
+    background-color: brown;
+}
+#afterani{
+    height:65vh;
+    width:33.33vw;
+    background-color: black;
+    opacity: 15%;;
+}
+@keyframes colorr{
+   from{
+    opacity:0%;
+    scale:1;
+   }
+   to{
+    opacity:50%;
+    scale:1.2;
+   }
+}
+#afterani:hover{
+    animation:colorr 5s ease-in-out;
+}
+    
+    
+#write-about{
+     height:96vh;
+     width:73vw;
+     background-image:url(https://mobirise.com/extensions/photom4/assets/images/background2.jpg);
+     background-position :center;
+     background-size:cover;
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position:relative;
+     top:20px;
+}
+#send-button{
+    margin-top: 30px;
+    
+    width:34.08vw;
+    display:flex;
+     flex-direction: row;
+    
+     justify-content: center;
+}
+@keyframes pic{
+    from{
+        opacity:0%;
+    }
+    to{
+        opacity:100%;
+    }
+}
+#anas{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    overflow:hidden;
+    margin-top:100px;
+    opacity:0%;
+}
+#anas:hover{
+    animation:pic 2.5s ease-in-out  infinite alternate;
+   } 
+#anas2{
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    overflow:hidden;
+    margin-top:100px;
+    opacity:0%;
+}
+#anas2:hover{
+    animation:pic 2.5s ease-in-out  infinite alternate;
+   } 
+
+@keyframes rot{
+    from{
+        transform:rotatey(0deg);
+    }
+    to{
+        transform:rotatey( 360deg);
+    }
+}
+.rot:hover{
+    animation:rot 1s;
+}
